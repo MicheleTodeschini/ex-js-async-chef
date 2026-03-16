@@ -57,3 +57,12 @@ async function getChefBirthday(id) {
 
     }
 })();
+
+/* async function getChefBirthday(id) {
+    let ricetta = await fetchJson(`https://dummyjson.com/recipes/${id}`)
+    let chef = await fetchJson(`https://dummyjson.com/users/${ricetta.userId}`)
+    let nascita = await fetchJson(`https://dummyjson.com/users/${ricetta.userId}`)
+
+
+    return { ...ricetta, chef, nascita }
+} */
